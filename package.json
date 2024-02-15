@@ -1,0 +1,21 @@
+{
+  "name": "week5assignment",
+  "version": "1.0.0",
+  "description": "week-5-assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./tailwind.css -o ./styles/front.css --watch"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "flex",
+    "grid"
+  ],
+  "author": "Ogo Joshua",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
