@@ -8,10 +8,12 @@
 </head>
 <body>
     <h1 class="uppercase text-center text-blue-700 bg-white">Welcome to Tailwindcss class</h1>
-    <section>
-        <p>Aisha</p>
-        <p>Kehinde</p>
-        <p>Joshua</p>
+    <section class="grid grid-cols-2 grid-rows-[repeat(5,_200px)] gap-8">
+        <p class="col-span-2 row-span-2 border-8 border-solid border-black">Aisha</p>
+        <p class="row-span-2 border-8 border-solid border-black">Kehinde</p>
+        <p class="row-span-2 border-8 border-solid border-black">Joshua</p>
+        <p class="row-start-5 border-8 border-solid border-black">Joshua</p>
+        <p class="col-start-2 row-start-5 border-8 border-solid border-black">Joshua</p>
     </section>
 </body>
 </html>
